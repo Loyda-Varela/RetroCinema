@@ -17,12 +17,6 @@
                    Keyboard="Email" 
                    ></Entry>
 
-            <Entry x:Name="usuario2" 
-                    TextColor="White"
-                   PlaceholderColor="Gray" 
-                   Placeholder="Usuario" 
-                   Keyboard="Email" 
-                   ></Entry>
 
             <Entry x:Name="contraseña" 
                    TextColor="White"
