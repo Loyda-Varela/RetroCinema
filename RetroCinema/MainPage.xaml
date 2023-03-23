@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RetroCinema.MainPage"
+             BackgroundColor="Black">
+
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Image Source="Logo2.jpg" WidthRequest="150" HeightRequest="150"></Image>
+
+
+            <Entry x:Name="usuario" 
+                    TextColor="White"
+                   PlaceholderColor="Gray" 
+                   Placeholder="Usuario" 
+                   Keyboard="Email" 
+                   ></Entry>
+
+            <Entry x:Name="contraseña" 
+                   TextColor="White"
+                   PlaceholderColor="Gray"
+                   Placeholder="Contraseña" 
+                   Keyboard="Text" 
+                   ></Entry>
+
+            <Button 
+                VerticalOptions="Center"
+                Text="Iniciar Secion"
+                x:Name="btnInSecion" 
+                Clicked="btnInSecion_Clicked"
+                BackgroundColor="Transparent"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                TextColor="White"
+                ></Button>
+            
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="No tienes una Cuenta?" TextColor="Gray"/>
+                        <Span Text="Registrarse" TextColor="Gray" FontAttributes="Bold" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+       
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
