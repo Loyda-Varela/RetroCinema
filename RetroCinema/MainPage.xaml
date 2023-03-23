@@ -10,14 +10,14 @@
             <Image Source="Logo2.jpg" WidthRequest="150" HeightRequest="150"></Image>
 
 
-            <Entry x:Name="usuario2" 
+            <Entry x:Name="usuario" 
                     TextColor="White"
                    PlaceholderColor="Gray" 
                    Placeholder="Usuario" 
                    Keyboard="Email" 
                    ></Entry>
 
-            <Entry x:Name="usuario" 
+            <Entry x:Name="usuario2" 
                     TextColor="White"
                    PlaceholderColor="Gray" 
                    Placeholder="Usuario" 
