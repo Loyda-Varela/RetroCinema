@@ -20,7 +20,9 @@ namespace RetroCinema
             if (usuario.Text=="admin" && contraseña.Text == "123")
                 {
                     Navigation.PushAsync(new Pages.Home());
-                }
+               // por fin algo sale medio bien
+
+            }
                
         }
 
@@ -28,7 +30,7 @@ namespace RetroCinema
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Pages.PageRegistro());
+            Navigation.PushAsync(new Pages.Peliculas());
         }
     }
 }

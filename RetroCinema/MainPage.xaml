@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RetroCinema.MainPage"
-             BackgroundColor="Black">
+             BackgroundColor="#1B1A28">
 
     <ContentPage.Content>
         <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
 
-            <Image Source="Logo2.jpg" WidthRequest="150" HeightRequest="150"></Image>
+            <Image Source="Logo2.jpg" WidthRequest="130" HeightRequest="130"></Image>
+
 
 
             <Entry x:Name="usuario" 
